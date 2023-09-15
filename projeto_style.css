@@ -1,0 +1,106 @@
+
+body{
+  background-color: #EBEBEB;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 50px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.page-header{
+  margin: 0;
+  position: relative;
+  height: 10%;
+  min-height: 100px;
+  width: 100%;
+  min-width: 1150px;
+  background-color: #21272B;
+}
+
+#header-icon{
+  margin: inherit;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  padding: 0;
+}
+
+#header-title{
+  color: #1BB4E8;
+  margin: inherit;
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+
+#header-subtitle{
+  color: #FFFFFF;
+  margin: inherit;
+  position: absolute;
+  top: 60px;
+  left: 70px;
+}
+
+ul{
+  color: #FFFFFF;
+  margin: inherit;
+  list-style-type: none;
+  position: absolute;
+  overflow:scroll;
+  top: 60px;
+  left: 27%;
+}
+
+li{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-right: 1px solid white;
+}
+
+li:last-child{
+  border-right: none;
+}
+
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #1BB4E8;
+}
+
+ul li:hover a, body.homepage li.homepage a,
+body.aluguel_page li.aluguel_page a,
+body.destinos_page li.destinos_page a,
+body.tripulacao_page li.tripulacao_page a,
+body.contato_page li.contato_page a{
+  color: #1BB4E8;
+}
+
+.main-advertise{
+  width: 100%;
+}
+
+.advertise-box{
+}
+
+#homepage-img{
+  width: 100%;
+  min-width: 1150px;
+  height: auto;
+}
+
+#advertise-icon{
+  position: absolute;
+}
+
+#advertise-text-01{
+  position: absolute;
+}
+
+#advertise-text-02{
+  position: absolute;
+}
